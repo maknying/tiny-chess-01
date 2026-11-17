@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/tiny-chess-01/maknying/tiny-chess-01/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 [![reward](https://make.fun/badge/tiny-chess-01/maknying/tiny-chess-01/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
-A compact chess engine in 4,096 bytes of Python — 0x88 board, negamax with alpha-beta, quiescence search, transposition table, and a fixed 60,000-node budget per move.
+A compact chess engine in 4,096 bytes of Python — 0x88 board, negamax with alpha-beta, late-move reductions, check extensions, quiescence search with delta pruning, transposition table, and a fixed 80,000-node budget per move. Piece-square tables tuned against Stockfish 19 and Lc0 evaluations.
 
 ## Run it
 
